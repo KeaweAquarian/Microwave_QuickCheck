@@ -27,7 +27,7 @@ public class MicrowaveProperties {
 
 		try {
 
-			// A freebie: I provide the definition
+			// A freebie: I provide the definition/////////////
 			assertTrue("The microwave shall be in cooking mode only when the door is closed",
 					implies(currentOutput.mode == ModeController.Mode.Cooking, currentInput.doorOpen == false));
 
